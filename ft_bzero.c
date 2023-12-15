@@ -1,19 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_toupper.c                                       :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/04 14:34:15 by uaksel            #+#    #+#             */
+/*   Created: 2023/12/06 12:21:17 by uaksel            #+#    #+#             */
 /*   Updated: 2023/12/07 19:53:08 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_toupper(int c)
+void ft_bzero(void *b, size_t len)
 {
-	if ((c >= 'a' && c <= 'z'))
-		return (c - 32);
-	else
-		return (c);
+	unsigned char *p;
+	size_t i;
+
+	p = b;
+	i = 0;
+	while (i < len)
+	{
+		p[i] = 0;
+		i++;
+	}
 }
