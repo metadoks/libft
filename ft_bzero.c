@@ -6,20 +6,19 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 12:21:17 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/07 19:53:08 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/15 15:06:38 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_bzero(void *b, size_t len)
-{
-	unsigned char *p;
-	size_t i;
+#include "libft.h"
 
-	p = b;
+void	ft_bzero(void *s, size_t n)
+{
+	size_t	i;
+	char	*p;
+
 	i = 0;
-	while (i < len)
-	{
-		p[i] = 0;
-		i++;
-	}
+	p = (char *)s;
+	while (i < n)
+		p[i++] = 0;
 }

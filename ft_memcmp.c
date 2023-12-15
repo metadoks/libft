@@ -6,11 +6,11 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/09 19:11:35 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/09 19:11:37 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/15 15:12:03 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_memcmp(const void *s1, const void *s2, size_t n)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	const unsigned char	*ss1;
 	const unsigned char	*ss2;

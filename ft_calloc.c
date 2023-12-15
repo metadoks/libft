@@ -6,7 +6,7 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 14:55:14 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/15 14:56:34 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/15 15:09:49 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void
 {
 	void	*ptr;
 
-	ptr = (void*)malloc(count * size);
+	ptr = (void *)malloc (count * size);
 	if (!ptr)
 		return (NULL);
 	ft_bzero(ptr, count);

@@ -6,7 +6,7 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 14:47:29 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/15 14:47:31 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/15 15:27:25 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char
 	while (i >= 0)
 	{
 		if (s[i] == (char)c)
-			return ((char*)(s + i));
+			return ((char *)(s + i));
 		i--;
 	}
 	return (NULL);

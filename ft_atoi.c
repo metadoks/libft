@@ -6,11 +6,11 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 14:50:45 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/15 14:50:46 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/15 15:01:50 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	int	i;
 	int	s;
@@ -19,8 +19,8 @@ int		ft_atoi(const char *str)
 	i = 0;
 	s = 1;
 	res = 0;
-	while (str[i] == ' ' || str[i] == '\n' || str[i] == '\t' ||
-			str[i] == '\v' || str[i] == '\f' || str[i] == '\r')
+	while (str[i] == ' ' || str[i] == '\n' || str[i] == '\t'
+		|| str[i] == '\v' || str[i] == '\f' || str[i] == '\r')
 		i++;
 	if (str[i] == '-' || str[i] == '+')
 	{
