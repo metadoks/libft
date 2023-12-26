@@ -6,7 +6,7 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 12:12:12 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/26 19:42:18 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 19:47:05 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int	ft_isalpha(int c)
 {
-	if (a >= 'a' && a <= 'z')
+	if (c >= 'a' && c <= 'z')
 		return (1);
-	else if (a >= 'A' && a <= 'Z')
+	else if (c >= 'A' && c <= 'Z')
 		return (1);
 	else
 		return (0);

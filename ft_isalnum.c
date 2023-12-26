@@ -6,19 +6,19 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 12:49:00 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/26 12:50:29 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 19:47:40 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalpha(char a)
+int	ft_isalnum(int c)
 {
-	if (a >= 'a' && a <= 'z')
+	if (c >= 'a' && c <= 'z')
 		return (1);
-	else if (a >= 'A' && a <= 'Z')
+	else if (c >= 'A' && c <= 'Z')
 		return (1);
-	else if (a >= '0' && a <= '9')
+	else if (c >= '0' && c <= '9')
 		return (1);
 	else
 		return (0);
