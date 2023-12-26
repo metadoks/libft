@@ -6,11 +6,10 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 14:55:48 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/15 15:25:07 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 12:50:01 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strdup(const char *s1)

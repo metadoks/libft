@@ -6,9 +6,11 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 17:12:49 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/15 17:13:12 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 12:51:59 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strtrim(char const *s1, char const *set)
 {

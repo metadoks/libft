@@ -6,9 +6,11 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 17:31:44 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/15 17:32:19 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 12:51:18 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 static char	**free_array(char **ptr, int i)
 {

@@ -6,9 +6,11 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 14:45:44 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/15 15:26:12 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 12:51:49 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

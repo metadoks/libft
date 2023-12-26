@@ -6,9 +6,11 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 13:09:09 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/04 13:24:38 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 12:51:05 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	*ft_memset(void *b, int c, size_t len)
 {

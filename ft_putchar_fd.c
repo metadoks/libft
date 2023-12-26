@@ -1,21 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/04 14:36:22 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/26 12:52:06 by uaksel           ###   ########.fr       */
+/*   Created: 2023/12/26 12:27:24 by uaksel            #+#    #+#             */
+/*   Updated: 2023/12/26 12:29:34 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_tolower(int c)
+void	ft_putchar_fd(char c, int fd)
 {
-	if ((c >= 'A' && c <= 'Z'))
-		return (c + 32);
-	else
-		return (c);
+	write(fd, &c, 1);
 }

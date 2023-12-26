@@ -6,11 +6,10 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 14:55:14 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/15 15:09:49 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 12:50:22 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 void

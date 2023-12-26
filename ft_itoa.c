@@ -6,11 +6,10 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 17:34:47 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/15 17:35:04 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 12:50:48 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_itoa(int n)

@@ -6,9 +6,11 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 12:57:18 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/04 13:02:07 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 12:51:44 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 size_t	ft_strlen(const char *a)
 {

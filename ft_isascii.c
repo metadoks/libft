@@ -6,9 +6,11 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 12:54:11 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/04 12:55:52 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 12:50:36 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isascii(char a)
 {

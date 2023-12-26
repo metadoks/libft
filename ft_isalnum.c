@@ -6,9 +6,11 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 12:49:00 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/04 12:51:48 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 12:50:29 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isalpha(char a)
 {

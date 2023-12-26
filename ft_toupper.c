@@ -6,9 +6,11 @@
 /*   By: uaksel <uaksel@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 14:34:15 by uaksel            #+#    #+#             */
-/*   Updated: 2023/12/07 19:53:08 by uaksel           ###   ########.fr       */
+/*   Updated: 2023/12/26 12:52:10 by uaksel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_toupper(int c)
 {
